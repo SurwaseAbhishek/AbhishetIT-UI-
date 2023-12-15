@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+       #Registration_Form{
+            width:500px;
+            background-color: rgb(154, 154, 154);
+            padding: 10px;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="Registration_Form">
+        <h2> Registration Form </h2>
+        <form>
+            <div>
+                <label for="UserName">UserName : </label>
+                <input id="UserName" type="text" placeholder="Enter Username">
+            </div><br> 
+            <div>
+                <label for="password">password : </label>
+                <input id="password" type="password" value="Abhi@12345" disabled>
+            </div><br>
+            <div>
+                <label>Developers : </label>
+                <input type="radio" name="Developers" value="FE"><label>FE</label>
+                <input type="radio" name="Developers" value="BE"><label>BE</label>
+                <input type="radio" name="Developers" value="DBA"><label>DBA</label>
+            </div><br>
+            <div>
+                <label>Skills : </label>
+                <input type="checkbox"  value="JAVA"><label>JAVA</label>
+                <input type="checkbox"  value="DBA"><label>DBA</label>
+                <input type="checkbox"  value="SpringBoot"><label>SpringBoot</label>
+            </div><br>
+            <div>
+                <label>Date : </label>
+                <input type="date">
+            </div><br>
+            <div>
+                <label>Time : </label>
+                <input type="time">
+            </div><br>
+            <div>
+                <label>Designation : </label>
+            <select>
+                <option>Select Designation</option>
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="Database Administration">Database Administration</option>
+                <option value="Q&A Engineer">Q&A Engineer</option>
+                <option value="Cloud Engineer">Cloud Engineer</option>
+            </select>
+            </div><br>
+            <div>
+                <label>Biography About myself</label><br>
+                <textarea rows="10" cols="30"></textarea>
+            </div>
+
+            
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+</div>
+</body>
+</html>

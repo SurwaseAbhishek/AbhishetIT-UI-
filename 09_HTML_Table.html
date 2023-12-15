@@ -1,0 +1,124 @@
+<!-- Table
+    <table>
+    <tbody>
+    <tr>
+    <th>
+    <td>
+    </table>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLE</title>
+    <style>
+        table{
+            background-color: rgb(247, 247, 241);
+            width: 100%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th,td{
+            background-color:rgb(179, 187, 187);
+            padding: 10px;
+        }
+        #table1{
+            background-color: rgb(240, 2, 2);
+            width: 100%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .abc{
+            background-color: rgb(208, 139, 217);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Employee Table Info</th>
+            </tr>
+            <tr>
+                <th>SR.NO</th> 
+                <th>NAME</th>
+                <th>Company</th>
+                <th colspan="2">Skills</th>
+            </tr> 
+        </thead>
+        <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Abhishke</td>
+                    <td>HCL</td>
+                    <td>JAVA & SpringBoot</td>
+                    <td>3 years</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Akash</td>
+                    <td>TCS</td>
+                    <td>JAVA & SQL</td>
+                    <td>2 years</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ajay</td>
+                    <td>Wipro</td>
+                    <td>Python & DJango</td>
+                    <td>1 years</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pratik</td>
+                    <td>Oracle</td>
+                    <td>ASP.net & Postgres</td>
+                    <td>6    years</td>
+                </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <table id="table1">
+        <thead>
+            <tr>
+                <th colspan="5" class="abc">Employee Table Info</th>
+            </tr>
+            <tr>
+                <th class="abc">SR.NO</th> 
+                <th class="abc">NAME</th>
+                <th class="abc">Company</th>
+                <th colspan="2" class="abc">Skills</th>
+            </tr> 
+        </thead>
+        <tbody id="pqr">
+                <tr>
+                    <td rowspan="5" class="abc">1</td>
+                    <td class="abc">Abhishke</td>
+                    <td class="abc">HCL</td>
+                    <td class="abc">JAVA & SpringBoot</td>
+                    <td class="abc">3 years</td>
+                </tr>
+                <tr>
+                    <td class="abc">Akash</td>
+                    <td class="abc">TCS</td>
+                    <td class="abc">JAVA & SQL</td>
+                    <td class="abc">2 years</td>
+                </tr>
+                <tr>
+                    <td class="abc">Ajay</td>
+                    <td class="abc">Wipro</td>
+                    <td class="abc">Python & DJango</td>
+                    <td class="abc">1 years</td>
+                </tr>
+                <tr>
+                    <td class="abc">Pratik</td>
+                    <td class="abc">Oracle</td>
+                    <td class="abc">ASP.net & Postgres</td>
+                    <td class="abc">6 years</td>
+                </tr>
+        </tbody>
+    </table>
+</body>
+</html>
