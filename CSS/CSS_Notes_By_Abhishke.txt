@@ -35,3 +35,13 @@ hsl(56,10%,20%);
 
 4] RGBA : rgba(red,green,blue,alfa)
 alpha range is : 0-1
+
+css Background
+==============
+Background-color : #aabbcc
+Background-image : url("")
+Background-repeat : reapeat-x,reapeat-y
+Background-attachment: scroll,fixed
+Background-position : left,top,right,bottom,center
+Background-size:cover,contain
+etc
