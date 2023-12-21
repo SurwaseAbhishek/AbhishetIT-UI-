@@ -1,0 +1,37 @@
+Introduction to CSS
+===================
+Is know as Cascading style sheet
+selector{
+    property:value;
+}
+
+ex :
+p{
+    color:white;
+}
+
+tag -> h1
+id -> #id
+class -> .class
+
+inline -> style attribute
+internal -> <style> tag
+external -> .css <link href="style.css"><link>
+
+
+css colors
+==========
+1] RGB : (Red,Green.Blue)
+0-255 values are there
+white : rgb{255,255,255}
+black : rgb{0,0,0}
+
+2] HEXA : #rrggbb
+white : #ffffff
+black : #000000
+
+3] HSL : hsl(hue,saturation,lightness);
+hsl(56,10%,20%);
+
+4] RGBA : rgba(red,green,blue,alfa)
+alpha range is : 0-1
