@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Table</title>
+    <style>
+        table{
+            background-color: pink;
+            width: 100%;
+            font-size: x-large;
+            text-align: center;
+        }
+        thead th{
+            background-color: darkgreen;
+            color: white;
+        }
+        tbody tr:nth-child(even){
+            background-color: rgb(53, 51, 51);
+        }
+        tbody tr:nth-child(odd){
+            background-color: grey;
+        }
+        tbody{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>My data </tr>
+            <tr>
+                <th>SR.NO</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>111</td>
+                <td>abhishek</td>
+                <td>pune</td>
+                <td>bsc comp</td>
+            </tr>
+            <tr>
+                <td>222</td>
+                <td>aksh</td>
+                <td>mumbai</td>
+                <td>bsc</td>
+            </tr>
+            <tr>
+                <td>333</td>
+                <td>pratik</td>
+                <td>satara</td>
+                <td>mca</td>
+            </tr>
+            <tr>
+                <td>444</td>
+                <td>nikhil</td>
+                <td>nagar</td>
+                <td>msc</td>
+            </tr>
+            <tr>
+                <td>555</td>
+                <td>chetan</td>
+                <td>pune</td>
+                <td>graphic designer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

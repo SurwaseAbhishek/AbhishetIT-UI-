@@ -45,3 +45,65 @@ Background-attachment: scroll,fixed
 Background-position : left,top,right,bottom,center
 Background-size:cover,contain
 etc
+
+CSS Margin - Padding
+====================
+Margin : white space outside border
+Padding : white space inside border 
+Syntax
+------
+margin : 2px
+margin-left : 5px
+margin-top : 5px
+margin-bottom : 5px
+margin-right : 5px
+
+margin : top   right   bottom    left
+margin : 2px   5px     10px      15px
+
+margin : top bottom    left right
+margin :   2px             4px
+
+margin : ALL
+margin : 10px 
+-----------------------------------------------------
+
+CSS - Outline
+==============
+outline : size type color
+outline : 10px dashed,solid,dotted, blue;
+
+-------------------------------------------------------
+
+CSS-Fonts
+=========
+font-family :  4 family : serif,sans-serif,monospaced,cursive
+font-size : 4px
+font-weight : bold,normal
+color : red
+font-style : italic
+
+-----------------------------------------------------------------------
+
+CSS Text Styles
+===============
+Either convert it into upeer or lower case :
+
+text-transform : lowercase/uppercase/capitlize
+letter-spacing : 2px
+word-spacing : 2px
+line-height : 30px
+text-shadow : x y color
+
+CSS Table
+=========
+
+CSS transform
+=============
+flip zoom in out extend are properties
+transform : scale()
+            skew()
+            translate()
+            rotate()
+            
+
